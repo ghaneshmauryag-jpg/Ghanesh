@@ -1,0 +1,8 @@
+{
+  "name": "Ghanesh Cinematic Portfolio",
+  "description": "A premium, dark-themed portfolio for video editors and visual designers featuring cinematic aesthetics and smooth, modern animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
