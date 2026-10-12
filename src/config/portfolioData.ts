@@ -3,6 +3,11 @@
  * GHANESH PORTFOLIO CONFIGURATION
  * ============================================================================
  */
+import heroPortrait from '../assets/images/ghanesh_hero_portrait_1791484074300.jpg';
+import workMotionObservation from '../assets/images/work_motion_observation_1791739153686.jpg';
+import workAdaniBlueprint from '../assets/images/work_adani_blueprint_1791739164289.jpg';
+import workHookRetention from '../assets/images/work_hook_retention_1791739188541.jpg';
+import workRawVsEdit from '../assets/images/work_raw_vs_edit_1791739202718.jpg';
 
 export interface ProjectItem {
   id: string;
@@ -43,7 +48,7 @@ export const PORTFOLIO_DATA = {
     description: "Crafting cinematic edits, powerful visuals and engaging digital experiences.",
     primaryCtaText: "VIEW MY WORK",
     secondaryCtaText: "CONTACT ME",
-    profilePhoto: "/src/assets/images/ghanesh_hero_portrait_1791484074300.jpg",
+    profilePhoto: heroPortrait,
     altText: "Ghanesh - Video Editor & Visual Designer",
     marqueeWords: [
       "VIDEO EDITING",
@@ -72,7 +77,7 @@ export const PORTFOLIO_DATA = {
         longDescription: "A masterclass in editorial graphic motion. Combining vintage paper textures, bold typography, speed curves, and visual metaphors to demonstrate how observation shapes creative storytelling. Every transition is timed to voice cadence with custom spatial audio design.",
         client: "Miracle Studios",
         year: "2026",
-        image: "/src/assets/images/work_motion_observation_1791739153686.jpg",
+        image: workMotionObservation,
         instagramUrl: "https://www.instagram.com/reel/DeZMDVcTcPl/",
         tags: ["After Effects", "Kinetic Typography", "Editorial Motion", "Sound Design"],
         aspectRatio: "vertical" as const,
@@ -93,7 +98,7 @@ export const PORTFOLIO_DATA = {
         longDescription: "Turning corporate financial strategy into compelling visual entertainment. Uses blueprint grid overlays, Before/After isometric plant models, and kinetic data graphs to explain how infrastructure, power, and ports created an empire.",
         client: "Business Analysis Series",
         year: "2026",
-        image: "/src/assets/images/work_adani_blueprint_1791739164289.jpg",
+        image: workAdaniBlueprint,
         instagramUrl: "https://www.instagram.com/reel/DeZMnskTdaA/",
         tags: ["Premiere Pro", "3D Projection", "Blueprint FX", "Motion Graphics"],
         aspectRatio: "vertical" as const,
@@ -114,7 +119,7 @@ export const PORTFOLIO_DATA = {
         longDescription: "Engineered specifically for short-form virality. Features gold Spartan armor lighting, layered curiosity triggers, classical Renaissance art framing, and hyper-targeted narrative pacing that drives immediate viewer action.",
         client: "Creator Growth Project",
         year: "2026",
-        image: "/src/assets/images/work_hook_retention_1791739188541.jpg",
+        image: workHookRetention,
         instagramUrl: "https://www.instagram.com/reel/DeZLpfRTDis/",
         tags: ["Sound Design", "Pacing & Retention", "Visual Metaphors", "Viral Hooks"],
         aspectRatio: "vertical" as const,
@@ -135,7 +140,7 @@ export const PORTFOLIO_DATA = {
         longDescription: "A clear demonstration of production value transformation. On the left: plain handheld smartphone camera recording. On the right: cinematic color science, dynamic gold line map animations, 3D metric pillars, and commercial-grade real estate sales conversion power.",
         client: "Gurgaon Property Showcase",
         year: "2026",
-        image: "/src/assets/images/work_raw_vs_edit_1791739202718.jpg",
+        image: workRawVsEdit,
         instagramUrl: "https://www.instagram.com/reel/DeZLbggzWwU/",
         tags: ["Color Grading", "Motion Tracking", "Real Estate Reel", "Raw vs Edit"],
         aspectRatio: "vertical" as const,
